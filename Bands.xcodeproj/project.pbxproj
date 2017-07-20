@@ -8,20 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		375FA5291E0B35E400723F59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375FA5281E0B35E400723F59 /* AppDelegate.swift */; };
-		375FA52B1E0B35E400723F59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375FA52A1E0B35E400723F59 /* ViewController.swift */; };
 		375FA52E1E0B35E400723F59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 375FA52C1E0B35E400723F59 /* Main.storyboard */; };
 		375FA5301E0B35E400723F59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 375FA52F1E0B35E400723F59 /* Assets.xcassets */; };
 		375FA5331E0B35E400723F59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 375FA5311E0B35E400723F59 /* LaunchScreen.storyboard */; };
+		375FA53B1E0B364700723F59 /* BandsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375FA53A1E0B364700723F59 /* BandsViewController.swift */; };
+		375FA53D1E0B366700723F59 /* bands.json in Resources */ = {isa = PBXBuildFile; fileRef = 375FA53C1E0B366700723F59 /* bands.json */; };
+		375FA5401E0B36A700723F59 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375FA53F1E0B36A700723F59 /* Alamofire.framework */; };
+		375FA5431E0B378D00723F59 /* BandsViewController+UITableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375FA5411E0B378D00723F59 /* BandsViewController+UITableViewDataSource.swift */; };
+		375FA5441E0B378D00723F59 /* BandsViewController+UITableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375FA5421E0B378D00723F59 /* BandsViewController+UITableViewDelegate.swift */; };
+		375FA5481E0B387900723F59 /* BandTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375FA5471E0B387900723F59 /* BandTableViewCell.swift */; };
+		375FA54A1E0B39F700723F59 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375FA5491E0B39F700723F59 /* RequestManager.swift */; };
+		375FA54C1E0B3AB100723F59 /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375FA54B1E0B3AB100723F59 /* UIKitExtensions.swift */; };
+		375FA54F1E0B3F9D00723F59 /* Band.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375FA54E1E0B3F9D00723F59 /* Band.swift */; };
+		375FA5531E0B44FF00723F59 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375FA5501E0B44FF00723F59 /* DetailViewController.swift */; };
+		375FA55B1E0B45BC00723F59 /* RoundedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375FA55A1E0B45BC00723F59 /* RoundedImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		375FA5251E0B35E400723F59 /* Bands.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bands.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		375FA5281E0B35E400723F59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		375FA52A1E0B35E400723F59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		375FA52D1E0B35E400723F59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		375FA52F1E0B35E400723F59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		375FA5321E0B35E400723F59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		375FA5341E0B35E400723F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		375FA53A1E0B364700723F59 /* BandsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandsViewController.swift; sourceTree = "<group>"; };
+		375FA53C1E0B366700723F59 /* bands.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bands.json; sourceTree = "<group>"; };
+		375FA53F1E0B36A700723F59 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
+		375FA5411E0B378D00723F59 /* BandsViewController+UITableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BandsViewController+UITableViewDataSource.swift"; sourceTree = "<group>"; };
+		375FA5421E0B378D00723F59 /* BandsViewController+UITableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BandsViewController+UITableViewDelegate.swift"; sourceTree = "<group>"; };
+		375FA5471E0B387900723F59 /* BandTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandTableViewCell.swift; sourceTree = "<group>"; };
+		375FA5491E0B39F700723F59 /* RequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		375FA54B1E0B3AB100723F59 /* UIKitExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
+		375FA54E1E0B3F9D00723F59 /* Band.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Band.swift; sourceTree = "<group>"; };
+		375FA5501E0B44FF00723F59 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		375FA55A1E0B45BC00723F59 /* RoundedImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				375FA5401E0B36A700723F59 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +59,7 @@
 		375FA51C1E0B35E400723F59 = {
 			isa = PBXGroup;
 			children = (
+				375FA53E1E0B369000723F59 /* Frameworks */,
 				375FA5271E0B35E400723F59 /* Bands */,
 				375FA5261E0B35E400723F59 /* Products */,
 			);
@@ -54,14 +76,63 @@
 		375FA5271E0B35E400723F59 /* Bands */ = {
 			isa = PBXGroup;
 			children = (
-				375FA5281E0B35E400723F59 /* AppDelegate.swift */,
-				375FA52A1E0B35E400723F59 /* ViewController.swift */,
-				375FA52C1E0B35E400723F59 /* Main.storyboard */,
-				375FA52F1E0B35E400723F59 /* Assets.xcassets */,
-				375FA5311E0B35E400723F59 /* LaunchScreen.storyboard */,
-				375FA5341E0B35E400723F59 /* Info.plist */,
+				379CDB911E0B5AEC00408B3B /* Model */,
+				379CDB921E0B5AF500408B3B /* Controller */,
+				379CDB931E0B5AFE00408B3B /* Interface */,
+				379CDB901E0B5ADB00408B3B /* Supporting Files */,
 			);
 			path = Bands;
+			sourceTree = "<group>";
+		};
+		375FA53E1E0B369000723F59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				375FA53F1E0B36A700723F59 /* Alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		379CDB901E0B5ADB00408B3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				375FA52F1E0B35E400723F59 /* Assets.xcassets */,
+				375FA53C1E0B366700723F59 /* bands.json */,
+				375FA5341E0B35E400723F59 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		379CDB911E0B5AEC00408B3B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				375FA5281E0B35E400723F59 /* AppDelegate.swift */,
+				375FA54E1E0B3F9D00723F59 /* Band.swift */,
+				375FA5471E0B387900723F59 /* BandTableViewCell.swift */,
+				375FA5491E0B39F700723F59 /* RequestManager.swift */,
+				375FA55A1E0B45BC00723F59 /* RoundedImageView.swift */,
+				375FA54B1E0B3AB100723F59 /* UIKitExtensions.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		379CDB921E0B5AF500408B3B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				375FA53A1E0B364700723F59 /* BandsViewController.swift */,
+				375FA5411E0B378D00723F59 /* BandsViewController+UITableViewDataSource.swift */,
+				375FA5421E0B378D00723F59 /* BandsViewController+UITableViewDelegate.swift */,
+				375FA5501E0B44FF00723F59 /* DetailViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		379CDB931E0B5AFE00408B3B /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				375FA5311E0B35E400723F59 /* LaunchScreen.storyboard */,
+				375FA52C1E0B35E400723F59 /* Main.storyboard */,
+			);
+			name = Interface;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +145,7 @@
 				375FA5211E0B35E400723F59 /* Sources */,
 				375FA5221E0B35E400723F59 /* Frameworks */,
 				375FA5231E0B35E400723F59 /* Resources */,
+				375FA54D1E0B3EF700723F59 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -126,19 +198,45 @@
 			files = (
 				375FA5331E0B35E400723F59 /* LaunchScreen.storyboard in Resources */,
 				375FA5301E0B35E400723F59 /* Assets.xcassets in Resources */,
+				375FA53D1E0B366700723F59 /* bands.json in Resources */,
 				375FA52E1E0B35E400723F59 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		375FA54D1E0B3EF700723F59 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Alamofire.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		375FA5211E0B35E400723F59 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				375FA52B1E0B35E400723F59 /* ViewController.swift in Sources */,
+				375FA5531E0B44FF00723F59 /* DetailViewController.swift in Sources */,
+				375FA5481E0B387900723F59 /* BandTableViewCell.swift in Sources */,
+				375FA53B1E0B364700723F59 /* BandsViewController.swift in Sources */,
+				375FA54F1E0B3F9D00723F59 /* Band.swift in Sources */,
+				375FA5431E0B378D00723F59 /* BandsViewController+UITableViewDataSource.swift in Sources */,
+				375FA54A1E0B39F700723F59 /* RequestManager.swift in Sources */,
 				375FA5291E0B35E400723F59 /* AppDelegate.swift in Sources */,
+				375FA54C1E0B3AB100723F59 /* UIKitExtensions.swift in Sources */,
+				375FA55B1E0B45BC00723F59 /* RoundedImageView.swift in Sources */,
+				375FA5441E0B378D00723F59 /* BandsViewController+UITableViewDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +360,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 49K39S52K6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Bands/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rkreutz.Bands;
@@ -275,6 +377,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 49K39S52K6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Bands/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rkreutz.Bands;
@@ -302,6 +408,7 @@
 				375FA5391E0B35E400723F59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
